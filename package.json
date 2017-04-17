@@ -1,0 +1,26 @@
+{
+  "name": "angelos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "ejs-loader": "^0.3.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "static-site-generator-webpack-plugin": "^3.4.1",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "glob": "^7.1.1",
+    "rimraf": "^2.6.1"
+  }
+}
